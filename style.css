@@ -680,212 +680,210 @@ body {
 }
 
 @media screen and (min-width: 659px) {
-  .es-use {
+  #es-laroche.es-laroche .es-use {
     margin: 32px auto;
   }
-  .es-use__container {
+  #es-laroche.es-laroche .es-use__container {
     position: relative;
     min-height: 334px;
   }
-  .es-use__wrapper {
+  #es-laroche.es-laroche .es-use__wrapper {
     width: 100%;
     position: absolute;
     z-index: 1;
   }
-  .es-use__left {
+  #es-laroche.es-laroche .es-use__left {
     position: absolute;
     top: 5%;
     left: 5%;
     z-index: 5;
     width: 60% !important;
   }
-  .es-kv__logo-2 {
+  #es-laroche.es-laroche .es-kv__logo-2 {
     position: absolute !important;
     right: 5%;
     top: 0;
   }
 }
 @media screen and (min-width: 535px) {
-  .es-mobile-break {
+  #es-laroche.es-laroche .es-mobile-break {
     display: none !important;
   }
-  .es-kv__logo {
+  #es-laroche.es-laroche .es-kv__logo {
     padding-bottom: 0;
   }
-  .es-kv__logo img {
+  #es-laroche.es-laroche .es-kv__logo img {
     margin: 0 !important;
   }
-  .es-kv__title {
+  #es-laroche.es-laroche .es-kv__title {
     margin: 40px 0 0 auto !important;
   }
-  .es-kv {
+  #es-laroche.es-laroche .es-kv {
     background-image: url('./static/img/bg-kv.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
-  .es-kv__left {
+  #es-laroche.es-laroche .es-kv__left {
     padding-bottom: 0;
     order: 1;
     width: 40%;
   }
-  .es-kv__left p {
+  #es-laroche.es-laroche .es-kv__left p {
     text-align: right;
   }
-  .es-kv__packshot {
+  #es-laroche.es-laroche .es-kv__packshot {
     padding-bottom: 0 !important;
     order: 2;
   }
-  .es-kv__packshot--image {
+  #es-laroche.es-laroche .es-kv__packshot--image {
     min-width: 100px !important;
   }
-  .es-kv__right {
+  #es-laroche.es-laroche .es-kv__right {
     width: 40%;
     order: 3;
     text-align: center;
   }
-  .es-effect__container {
+  #es-laroche.es-laroche .es-effect__container {
     margin-left: 9% !important;
   }
 }
 @media screen and (min-width: 768px) {
-  #es-laroche.es-laroche {
-    .es-kv__wrapper {
-      position: relative;
-    }
-    .es-kv__left {
-      margin-top: -106px;
-      margin-left: 48px;
-      font-size: 35px;
-    }
-    .es-kv__left span {
-      font-size: 19px;
-    }
-    .es-kv__logo img {
-      padding-top: 30px;
-      margin-left: 150px !important;
-    }
-    .es-kv__packshot {
-      margin-top: -51px;
-      margin-right: 128px;
-    }
-    .es-kv__right {
-      position: absolute;
-      top: 75%;
-      left: 13%;
-    }
-    .es-ingr__label span {
-      font-size: 16px;
-    }
-    .es-ingr__label {
-      width: 90%;
-      height: 90px;
-      font-size: 24px;
-    }
-    .es-desc {
-      margin-top: 100px;
-    }
-    .es-desc__title {
-      margin-bottom: 30px;
-      font-size: 35px;
-    }
-    .es-micro__content {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      right: 109px;
-      width: 275px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-left: 5px;
-      padding-right: 5px;
-    }
-    .es-cross {
-      position: relative;
-    }
-    .es-ingr__title {
-      font-size: 35px;
-    }
-    .es-effect__container {
-      max-width: 550px;
-    }
-    .es-effect__title {
-      font-size: 33px;
-    }
-    .es-cross {
-      position: relative;
-    }
-    .es-cross__container {
-      padding-top: 250px;
-      justify-self: space-around;
-      background-size: cover;
-      background-position: center;
-      position: relative;
-    }
-    .es-cross__image {
-      max-width: 100%;
-      display: block;
-      margin: 0 auto;
-      margin-bottom: 30px;
-    }
-    .es-cross__number {
-      position: absolute;
-      top: -22px;
-      right: -30px;
-      font-size: 110px;
-      font-weight: 600;
-      margin: 0 0 !important;
-      max-height: 160px !important;
-    }
-    .es-cross__title,
-    .es-cross__desc {
-      text-align: center;
-      margin: 0 auto;
-    }
+  #es-laroche.es-laroche .es-kv__wrapper {
+    position: relative;
+  }
+  #es-laroche.es-laroche .es-kv__left {
+    margin-top: -106px;
+    margin-left: 48px;
+    font-size: 35px;
+  }
+  #es-laroche.es-laroche .es-kv__left span {
+    font-size: 19px;
+  }
+  #es-laroche.es-laroche .es-kv__logo img {
+    padding-top: 30px;
+    margin-left: 150px !important;
+  }
+  #es-laroche.es-laroche .es-kv__packshot {
+    margin-top: -51px;
+    margin-right: 128px;
+  }
+  #es-laroche.es-laroche .es-kv__right {
+    position: absolute;
+    top: 75%;
+    left: 13%;
+  }
+  #es-laroche.es-laroche .es-ingr__label span {
+    font-size: 16px;
+  }
+  #es-laroche.es-laroche .es-ingr__label {
+    width: 90%;
+    height: 90px;
+    font-size: 24px;
+  }
+  #es-laroche.es-laroche .es-desc {
+    margin-top: 100px;
+  }
+  #es-laroche.es-laroche .es-desc__title {
+    margin-bottom: 30px;
+    font-size: 35px;
+  }
+  #es-laroche.es-laroche .es-micro__content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 109px;
+    width: 275px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #es-laroche.es-laroche .es-cross {
+    position: relative;
+  }
+  #es-laroche.es-laroche .es-ingr__title {
+    font-size: 35px;
+  }
+  #es-laroche.es-laroche .es-effect__container {
+    max-width: 550px;
+  }
+  #es-laroche.es-laroche .es-effect__title {
+    font-size: 33px;
+  }
+  #es-laroche.es-laroche .es-cross {
+    position: relative;
+  }
+  #es-laroche.es-laroche .es-cross__container {
+    padding-top: 250px;
+    justify-self: space-around;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  #es-laroche.es-laroche .es-cross__image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  #es-laroche.es-laroche .es-cross__number {
+    position: absolute;
+    top: -22px;
+    right: -30px;
+    font-size: 110px;
+    font-weight: 600;
+    margin: 0 0 !important;
+    max-height: 160px !important;
+  }
+  #es-laroche.es-laroche .es-cross__title,
+  #es-laroche.es-laroche .es-cross__desc {
+    text-align: center;
+    margin: 0 auto;
+  }
 
-    .es-cross__title {
-      min-height: 72px;
-      margin: 0 0 10px 0 !important;
-      font-size: 20px !important;
+  #es-laroche.es-laroche .es-cross__title {
+    min-height: 72px;
+    margin: 0 0 10px 0 !important;
+    font-size: 20px !important;
+  }
+  #es-laroche.es-laroche .es-cross__title--main {
+    position: absolute;
+    width: 83%;
+    font-size: 35px !important;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+  }
+  #es-laroche.es-laroche .es-cross__desc {
+    padding: 0;
+    max-width: 169px !important;
+  }
+  #es-laroche.es-laroche .es-cross__single {
+    max-width: 200px !important;
+    text-align: left;
+    position: relative;
+  }
+  #es-laroche.es-laroche .es-cross__single--1 {
+    img {
+      max-height: 400px;
+      margin-top: -50px;
     }
-    .es-cross__title--main {
-      position: absolute;
-      width: 83%;
-      font-size: 35px !important;
-      top: 45px;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 100;
+  }
+  #es-laroche.es-laroche .es-cross__single--3 {
+    img {
+      margin-top: 50px;
+      max-height: 300px;
     }
-    .es-cross__desc {
-      padding: 0;
-      max-width: 169px !important;
-    }
-    .es-cross__single {
-      max-width: 200px !important;
-      text-align: left;
-      position: relative;
-    }
-    .es-cross__single--1 {
-      img {
-        max-height: 400px;
-        margin-top: -50px;
-      }
-    }
-    .es-cross__single--3 {
-      img {
-        margin-top: 50px;
-        max-height: 300px;
-      }
-    }
-    .es-effect {
-      background: url('./static/img/bg-effect.png') no-repeat;
-      background-size: contain;
-      background-position: right;
-    }
-    .es-obligations__title {
-      font-size: 35px;
-    }
+  }
+  #es-laroche.es-laroche .es-effect {
+    background: url('./static/img/bg-effect.png') no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+  #es-laroche.es-laroche .es-obligations__title {
+    font-size: 35px;
   }
 }
 @keyframes slideright {
